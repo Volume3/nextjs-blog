@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Volume3'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = `Volume3's blog`
 
 function Layout({ children,home }) {
     return (
@@ -28,7 +28,7 @@ function Layout({ children,home }) {
 							{home ? (
 								<>
 									<img 
-										src="/images/profile.jpg" 
+										src="/images/profile1.jpg" 
 										className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
 										alt={name}
 									/>
@@ -39,7 +39,7 @@ function Layout({ children,home }) {
 									<Link href="/">
 										<a href="">
 											<img
-												src="/images/profile.jpg" 
+												src="/1.jpg" 
 												className={`${styles.headerImage} ${utilStyles.borderCircle}`}
 												alt={name}
 											/>
